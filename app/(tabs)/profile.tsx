@@ -1,5 +1,5 @@
 import { Gap } from "@/components";
-import { Header, IndentityCard, MenuItem } from "@/components/profile";
+import { Header, IdentityCard, MenuItem } from "@/components/profile";
 import Colors from "@/constants/Colors";
 import { HelpIcon, LogoutIcon, SettingIcon } from "@/icons";
 import SecurityIcon from "@/icons/SecurityIcon";
@@ -23,7 +23,7 @@ export default function ProfileScreen() {
       <View style={[styles.container, { paddingTop: insets.top + PADDING }]}>
         <Header />
         <Gap height={8} />
-        <IndentityCard nik="6472 1234 5678 9012" name="Benedict Cumberbatch" />
+        <IdentityCard nik="6472 1234 5678 9012" name="Benedict Cumberbatch" />
         <Gap height={8} />
         <View>
           <View style={styles.menuContainer}>

@@ -13,7 +13,7 @@ interface Props {
   name: string;
 }
 
-export default function IndentityCard({ nik, name }: Props) {
+export default function IdentityCard({ nik, name }: Props) {
   return (
     <Card width={CARD_WIDTH} borderRadius={4} style={styles.container}>
       <Image
